@@ -111,7 +111,7 @@
             box-shadow: 4px 0 10px #f7f7f7;
             right: -15px;
             top: 32px;
-            z-index: 120;
+            z-index: 120 ;
             svg {
                 width: 18px;
                 height: 18px;
