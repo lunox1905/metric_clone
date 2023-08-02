@@ -97,8 +97,7 @@
 
         display: flex;
         flex-direction: column;
-        overflow: hidden;
-
+        z-index: 101;
         transition: 0.1s ease-in-out;
         .toggle-sidebar {
             position: absolute;
@@ -112,6 +111,7 @@
             box-shadow: 4px 0 10px #f7f7f7;
             right: -15px;
             top: 32px;
+            z-index: 120;
             svg {
                 width: 18px;
                 height: 18px;
@@ -122,7 +122,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 8px auto 8px auto;
+            margin: 8px auto 16px auto;
             img {
                 height: 20px;
             }
@@ -236,7 +236,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 8px auto 8px auto;
+            margin: 8px auto 16px auto;
             img {
                 width: 120px;
                 height: 24px;
